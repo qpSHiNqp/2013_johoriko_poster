@@ -5,7 +5,7 @@
 Macの中身を整理したかったのでgithubにコードを退避しておく. 退避するだけの目的なのでコードは汚いが, とりあえず問題は解けるはず.
 
 次のコードでバイナリをASCIIに戻せる. このone linerは [hosi_moさん](https://github.com/hosi-mo)さんが使っていたやつ。
-[こちら](http://hosimo.net/archives/813)はほしーもさんの解説. スマートですね.
+[こちら](http://hosimo.net/archives/813)はほしーもさんの解説. スマートですね. [ほしーもさんのコード](https://github.com/hosi-mo/istposter2013)がgithubにも上がっています. ここにもある通り, 人力OCRは@hirochikasaiさんのお陰です!
 
     s = File.open("01.txt", "rb") {|f| print [f.read].pack("B*")}
 
