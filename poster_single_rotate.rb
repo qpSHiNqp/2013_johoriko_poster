@@ -1,3 +1,6 @@
+# poster_single_rotate.rb
+# Author: Shintaro Tanaka
+# test code to rotate by single alphabet
 require "./cube"
 
 c = Cube.new

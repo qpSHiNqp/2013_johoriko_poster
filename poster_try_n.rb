@@ -1,3 +1,6 @@
+# poster_try_n.rb
+# Author: Shintaro Tanaka
+# try rotate according to the sequence N times.
 require "./cube"
 
 c = Cube.new

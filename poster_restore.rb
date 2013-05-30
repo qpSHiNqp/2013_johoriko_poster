@@ -1,3 +1,6 @@
+# poster_restore.rb
+# Author: Shintaro Tanaka
+# calcurate N which restores the origin state of the cube
 require "./cube"
 
 c = Cube.new

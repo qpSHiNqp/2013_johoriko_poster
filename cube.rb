@@ -1,3 +1,30 @@
+# cube.rb
+# Author: Shintaro Tanaka
+# Cube stractural class that represents the current cube's geometry state and rotation
+
+#+----+
+#|Ipwg|
+#|o..u|EFHI KNOR
+#|acto||||| ||||
+#|usw!|VVVV VVVV
+#+----+----+----+----+
+#| uil|o  t|hw: |ak.y|->S
+#| ft |S-to|nw/r|_/ao|->T
+#|scys|iai |o.o |_ttl|->U
+#|tuue|nnn.|ojki|lk. |->V,Y
+#+----+----+----+----+
+#|GTad|
+#|h/se|
+#|lh r|
+#|CSpF|
+#+----+
+#
+#Rotate this cube by repeating
+#T,H,E,U,N,I,V,E,R,S,I,T,Y,O,F,T,O,K,Y,O
+#201^^3 times.
+#
+#a^^b is up-arrow notation.
+
 require 'pp'
 
 T,H,E,U,N,I,V,R,S, Y, O, F, K = 0,1,2,3,4,5,6,7,8,9,10,11,12
@@ -45,29 +72,6 @@ class Cube
             ["C","S","p","F"]
         ]
     end
-
-#+----+
-#|Ipwg|
-#|o..u|EFHI KNOR
-#|acto||||| ||||
-#|usw!|VVVV VVVV
-#+----+----+----+----+
-#| uil|o  t|hw: |ak.y|->S
-#| ft |S-to|nw/r|_/ao|->T
-#|scys|iai |o.o |_ttl|->U
-#|tuue|nnn.|ojki|lk. |->V,Y
-#+----+----+----+----+
-#|GTad|
-#|h/se|
-#|lh r|
-#|CSpF|
-#+----+
-#
-#Rotate this cube by repeating
-#T,H,E,U,N,I,V,E,R,S,I,T,Y,O,F,T,O,K,Y,O
-#201^^3 times.
-#
-#a^^b is up-arrow notation.
 
     def rotate(axis, pos)
         case axis
